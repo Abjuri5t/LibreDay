@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LibreDay</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+  <body>
+    <header class="w3-container w3-teal">
+      <h1>LibreDay</h1>
+      <h3>Open source version of WorkDay (parody purposes only)</h3>
+    </header>
+    <div class="w3-center">
+      <div class="w3-container w3-half w3-margin-top">
+        <form class="w3-container w3-card-4" action="getSched.php" method="post">
+          <p>
+            <input class="w3-input" type="text" name="sid" style="width:90%" required>
+            <label>Student ID Number</label>
+          </p>
+	  <br>
+	  <p><input type="submit" value="Generate Schedule"></p><!--schedules have been pre-generated  ;-) -->
+        </form>
+      </div>
+    </div>
+    <p><i>Many eyes make all bugs shallow.</i></p>
+  </body>
+</html>
